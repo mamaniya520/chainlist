@@ -10011,6 +10011,35 @@ export const extraRpcs = {
         trackingDetails: "No user tracking or data collection",
       },
     ],
+  },
+  20260131: {
+    rpcs: [
+      {
+        url: "https://rpc.ma-chain.xyz",
+        tracking: "none",
+        trackingDetails: "Meta Assets Chain does not collect or store any user information including IP addresses or wallet addresses.",
+      },
+      {
+        url: "https://madataseed.xyz",
+        tracking: "none",
+        trackingDetails: "Meta Assets Chain does not collect or store any user information including IP addresses or wallet addresses.",
+      },
+      {
+        url: "https://maclive.info",
+        tracking: "none",
+        trackingDetails: "Meta Assets Chain does not collect or store any user information including IP addresses or wallet addresses.",
+      },
+      {
+        url: "wss://madataseed.xyz/ws",
+        tracking: "none",
+        trackingDetails: "Meta Assets Chain does not collect or store any user information including IP addresses or wallet addresses.",
+      },
+      {
+        url: "wss://maclive.info/ws",
+        tracking: "none",
+        trackingDetails: "Meta Assets Chain does not collect or store any user information including IP addresses or wallet addresses.",
+      },
+    ],
   }
 };  
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
