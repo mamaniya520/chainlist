@@ -10029,6 +10029,25 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.sentio,
       }
     ]
+  },
+  20260131: {
+    rpcs: [
+      {
+        url: "https://rpc.ma-chain.xyz",
+      },
+      {
+        url: "https://madataseed.xyz",
+      },
+      {
+        url: "https://maclive.info",
+      },
+      {
+        url: "wss://madataseed.xyz/ws",
+      },
+      {
+        url: "wss://maclive.info/ws",
+      },
+    ]
   }
 };  
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
